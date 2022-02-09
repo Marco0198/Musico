@@ -26,7 +26,7 @@
         </p>
       </div>
     </div>
-    <Wrapper :text="`This is all about Music  Entraitenment`" />
+    <Wrapper :text="text" />
     <Gallery />
   
   
@@ -43,6 +43,7 @@ export default {
     return {
       url: "https://images.pexels.com/photos/1763075/pexels-photo-1763075.jpeg",
       title: "About Musico ",
+      text:"This is all about Music  Entraitenment`"
     };
   },
 };
