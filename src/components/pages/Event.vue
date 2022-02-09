@@ -69,7 +69,6 @@
 <script>
 import axios from "axios";
 import ArtistFilter from "../artist/ArtistFilter.vue";
-import NewsList from "../NewsList.vue";
 import ArtistProfil from "../artist/ArtistProfil.vue";
 import moment from "moment";
 import Loading from "../Loading.vue";
@@ -81,7 +80,7 @@ export default {
   components: {
     //  Layout,
     ArtistFilter,
-    NewsList,
+    
     ArtistProfil,
     Loading,
     Error,
